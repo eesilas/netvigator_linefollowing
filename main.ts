@@ -40,9 +40,9 @@ basic.forever(function () {
                 if (x1 - x2 > 18) {
                     SuperBit.MotorRunDual(
                     SuperBit.enMotors.M1,
-                    36,
+                    31,
                     SuperBit.enMotors.M3,
-                    58
+                    63
                     )
                     basic.showLeds(`
                         # # # . .
@@ -54,9 +54,9 @@ basic.forever(function () {
                 } else if (x1 - x2 > 0) {
                     SuperBit.MotorRunDual(
                     SuperBit.enMotors.M1,
-                    41,
+                    36,
                     SuperBit.enMotors.M3,
-                    53
+                    46
                     )
                     basic.showLeds(`
                         # # # . .
@@ -68,9 +68,9 @@ basic.forever(function () {
                 } else if (x1 - x2 <= 18) {
                     SuperBit.MotorRunDual(
                     SuperBit.enMotors.M1,
-                    58,
+                    63,
                     SuperBit.enMotors.M3,
-                    36
+                    31
                     )
                     basic.showLeds(`
                         . . # # #
@@ -82,9 +82,9 @@ basic.forever(function () {
                 } else if (x1 - x2 <= 0) {
                     SuperBit.MotorRunDual(
                     SuperBit.enMotors.M1,
-                    53,
+                    48,
                     SuperBit.enMotors.M3,
-                    41
+                    36
                     )
                     basic.showLeds(`
                         . . # # #
@@ -96,9 +96,9 @@ basic.forever(function () {
                 } else {
                     SuperBit.MotorRunDual(
                     SuperBit.enMotors.M1,
-                    40,
+                    38,
                     SuperBit.enMotors.M3,
-                    40
+                    38
                     )
                     basic.showLeds(`
                         . . # . .
